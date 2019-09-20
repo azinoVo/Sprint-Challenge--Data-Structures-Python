@@ -14,10 +14,10 @@ f.close()
 # For each of the 10,000, it has to iterate over each of the other 10,000 so 10,000^2
 
 # duplicates = []
-# for name_1 in names_1: # n
-#     for name_2 in names_2: # n
-#         if name_1 == name_2: # 0(1)
-#             duplicates.append(name_1)
+# for name_1 in names_1: # O(n)
+#     for name_2 in names_2: # O(n)
+#         if name_1 == name_2: # O(1)
+#             duplicates.append(name_1) O(1)
 
 # Python seems to have a bunch of methods for comparing two sets of data, returning differences and similarities
 # Can I use this?
