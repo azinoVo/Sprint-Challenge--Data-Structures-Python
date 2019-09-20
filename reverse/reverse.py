@@ -47,8 +47,8 @@ class LinkedList:
     # Point the prev to none and continue reversing the references
     #     [1 => 2 => 3 => 4 => 5]
     #None head next
-    #     [1 => 2 => 3 => 4 => 5]          
-
+    # Change reference to go in reverse
+    # First head's prev should be None
     prev = None
     # While a head exists
     while self.head:

@@ -24,7 +24,7 @@ f.close()
 
 # duplicates = names_1.intersection(names_2)
 duplicates = list(set(names_1) & set(names_2))
-print("SET?", duplicates)
+print("SET", duplicates)
 
 end_time = time.time()
 print (f"{len(duplicates)} duplicates:\n\n{', '.join(duplicates)}\n\n")
